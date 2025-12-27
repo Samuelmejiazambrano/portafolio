@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Contenedor general */
+.general {
+    width: 100%;
+}
+
+.header {
+    min-height: 70vh;
+    background-image: url('../imgs/blue-glowing-technology-background-abstract-blue-gradient-technology-background-illustration-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.proyectos {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../imgs/blue-glowing-technology-background-abstract-blue-gradient-technology-background-illustration-vector.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+    .header {
+        min-height: 60vh;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .header {
+        min-height: 45vh;
+    }
+}

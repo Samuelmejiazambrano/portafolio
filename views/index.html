@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/portafolio.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <div class="general">
+        <!-- Header -->
+        <div class="header relative flex items-center" id="inicio">
+
+            <!-- Overlay opcional -->
+            <div class="absolute inset-0 bg-black/50"></div>
+
+            <!-- NAV -->
+            <header class="absolute top-0 left-0 w-full z-50">
+                <nav class="bg-black/40 backdrop-blur-md">
+                    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-white">
+                        <div class="text-xl font-semibold">
+                            Hector Moreno
+                        </div>
+
+                        <ul class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                            <li><a href="#inicio" class="hover:text-sky-400 transition">Inicio</a></li>
+                            <li><a href="#sobre-mi" class="hover:text-sky-400 transition">Sobre mí</a></li>
+                            <li><a href="#experencia" class="hover:text-sky-400 transition">Experencia</a></li>
+                            <li><a href="#servicios" class="hover:text-sky-400 transition">Servicios</a></li>
+                            <li><a href="#proyectos" class="hover:text-sky-400 transition">Proyectos</a></li>
+                        </ul>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <div class="relative z-10 max-w-7xl mx-auto px-7 w-full">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-10 text-white mt-14">
+
+                    <div class="md:w-1/2 text-center md:text-left">
+
+                        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                            Analista de Datos
+                        </h1>
+
+                        <p class="text-lg text-gray-200 max-w-md md:text-left mb-6">
+                            Transformo números en historias que revelan oportunidades.
+                            Con datos claros, impulso decisiones inteligentes y seguras.
+                        </p>
+
+                        <div class="flex justify-center md:justify-start gap-6">
+
+                            <a href="mailto:tuemail@email.com" class="hover:text-sky-400 transition" title="Email">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" x="0px" y="0px"
+                                    viewBox="0 0 48 48">
+                                    <path fill="#40c4ff"
+                                        d="M31.323,8.502L7.075,23.872l-2.085-3.29v-2.835c0-1.032,0.523-1.994,1.389-2.556l14.095-9.146	c2.147-1.393,4.914-1.394,7.061-0.001L31.323,8.502z">
+                                    </path>
+                                    <path fill="#1976d2"
+                                        d="M27.317,5.911c0.073,0.043,0.145,0.088,0.217,0.135l11,7.136L11.259,30.47l-4.185-6.603	l20.017-12.713C28.988,9.95,29.071,7.241,27.317,5.911z">
+                                    </path>
+                                    <path fill="#0d47a1"
+                                        d="M22.142,33.771L11.26,30.47l23.136-14.666c1.949-1.235,1.944-4.08-0.009-5.308l-0.104-0.065	l0.3,0.186l7.041,4.568c0.866,0.562,1.389,1.524,1.389,2.556v2.744L22.142,33.771z">
+                                    </path>
+                                    <path fill="#29b6f6"
+                                        d="M20.886,43h15.523c3.646,0,6.602-2.956,6.602-6.602V17.797c0,1.077-0.554,2.079-1.466,2.652	l-23.09,14.498c-1.246,0.782-2.001,2.15-2.001,3.62C16.454,41.016,18.438,43,20.886,43z">
+                                    </path>
+                                    <radialGradient id="jOGZKH9xgyi24L29LbTdga_RUIFhdJm8fbJ_gr1" cx="-509.142"
+                                        cy="-26.522" r=".07"
+                                        gradientTransform="matrix(-170.8609 259.7254 674.0181 443.4041 -69097.734 144024.688)"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#49deff"></stop>
+                                        <stop offset=".724" stop-color="#29c3ff"></stop>
+                                    </radialGradient>
+                                    <path fill="url(#jOGZKH9xgyi24L29LbTdga_RUIFhdJm8fbJ_gr1)"
+                                        d="M27.198,42.999H11.589c-3.646,0-6.602-2.956-6.602-6.602V17.783	c0,1.076,0.552,2.076,1.461,2.649l23.067,14.543c1.263,0.796,2.029,2.185,2.029,3.678C31.544,41.053,29.598,42.999,27.198,42.999z">
+                                    </path>
+                                    <path fill="#80d8ff"
+                                        d="M27.198,42.999H11.589c-3.646,0-6.602-2.956-6.602-6.602V17.783c0,1.076,0.552,2.076,1.461,2.649	l23.067,14.543c1.263,0.796,2.029,2.185,2.029,3.678C31.544,41.053,29.598,42.999,27.198,42.999z">
+                                    </path>
+                                    <path fill="#fff"
+                                        d="M11.282,36.236c-1.398,0-2.545-0.437-3.442-1.312c-0.897-0.874-1.346-2.015-1.346-3.423	c0-1.486,0.455-2.689,1.366-3.607c0.911-0.918,2.103-1.377,3.577-1.377c1.393,0,2.526,0.439,3.401,1.318	c0.879,0.879,1.319,2.037,1.319,3.475c0,1.478-0.456,2.669-1.366,3.574C13.885,35.786,12.716,36.236,11.282,36.236z M11.323,34.381	c0.762,0,1.375-0.26,1.839-0.78c0.464-0.52,0.696-1.244,0.696-2.171c0-0.966-0.226-1.718-0.676-2.256	c-0.451-0.538-1.053-0.806-1.805-0.806c-0.775,0-1.4,0.278-1.873,0.833c-0.473,0.551-0.71,1.281-0.71,2.19	c0,0.923,0.237,1.653,0.71,2.19C9.977,34.114,10.583,34.381,11.323,34.381z">
+                                    </path>
+                                    <path fill="#1565c0"
+                                        d="M6.453,23h10.094C18.454,23,20,24.546,20,26.453v10.094C20,38.454,18.454,40,16.547,40H6.453	C4.546,40,3,38.454,3,36.547V26.453C3,24.546,4.546,23,6.453,23z">
+                                    </path>
+                                    <path fill="#fff"
+                                        d="M11.453,36.518c-1.4,0-2.55-0.452-3.449-1.355c-0.899-0.903-1.348-2.082-1.348-3.537	c0-1.536,0.456-2.778,1.369-3.726c0.913-0.949,2.107-1.423,3.584-1.423c1.396,0,2.532,0.454,3.408,1.362	c0.881,0.908,1.321,2.105,1.321,3.591c0,1.527-0.456,2.758-1.369,3.692C14.061,36.053,12.889,36.518,11.453,36.518z M11.493,34.601	c0.763,0,1.378-0.269,1.843-0.806c0.465-0.538,0.698-1.285,0.698-2.243c0-0.998-0.226-1.775-0.677-2.331	c-0.452-0.556-1.055-0.833-1.809-0.833c-0.777,0-1.403,0.287-1.877,0.861c-0.474,0.569-0.711,1.323-0.711,2.263	c0,0.953,0.237,1.707,0.711,2.263C10.145,34.326,10.752,34.601,11.493,34.601z">
+                                    </path>
+                                </svg>
+                            </a>
+
+                            <a href="https://github.com/tuusuario" target="_blank" class="hover:text-sky-400 transition"
+                                title="GitHub">
+                                <svg class="w-10 h-10" x="0px" y="0px" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .5C5.73.5.5 5.74.5 12.03c0 5.1 3.29 9.43 7.86 10.96.58.1.79-.25.79-.56v-2.2c-3.2.7-3.88-1.39-3.88-1.39-.53-1.35-1.29-1.7-1.29-1.7-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.8 2.73 1.28 3.4.98.1-.76.41-1.28.74-1.57-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.1 11.1 0 012.9-.39c.99 0 1.98.13 2.9.39 2.2-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.8 1.07.8 2.16v3.2c0 .31.21.67.8.56A11.53 11.53 0 0023.5 12.03C23.5 5.74 18.27.5 12 .5z" />
+                                </svg>
+                            </a>
+
+                            <a href="https://wa.me/573001234567" target="_blank" class="hover:text-green-400 transition"
+                                title="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-10 h-10"
+                                    viewBox="0 0 48 48">
+                                    <path fill="#fff"
+                                        d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z">
+                                    </path>
+                                    <path fill="#fff"
+                                        d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z">
+                                    </path>
+                                    <path fill="#cfd8dc"
+                                        d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z">
+                                    </path>
+                                    <path fill="#40c351"
+                                        d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z">
+                                    </path>
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                            <a href="https://wa.me/573001234567" target="_blank" class="hover:text-green-400 transition"
+                                title="WhatsApp">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w10 h-10"
+                                    viewBox="0 0 48 48">
+                                    <path fill="#0288D1"
+                                        d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                                    </path>
+                                    <path fill="#FFF"
+                                        d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <img src="../imgs/file.jpg"
+                            class="w-40 h-40 md:w-60 md:h-60 rounded-full object-cover border-4 border-white shadow-lg">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Sobre mí -->
+        <div id="sobre-mi" class="sobre-mi py-20 bg-gray-50">
+            <div class="max-w-5xl mx-auto px-6">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center">
+                    Sobre mí
+                </h2>
+
+                <div class="w-24 h-1 bg-sky-500 mx-auto mb-8"></div>
+
+                <p class="text-lg text-gray-600 leading-relaxed text-center max-w-3xl mx-auto"
+                    style="font-weight: 600;">
+                    Transformo números en historias que revelan oportunidades.
+                    Con datos claros, impulso decisiones inteligentes y seguras.
+                    Me especializo en análisis, visualización y toma de decisiones basadas en datos reales.
+                    Además, diseño modelos que anticipan tendencias, optimizo procesos empresariales y convierto la
+                    información en estrategias prácticas.
+                    Mi objetivo es que cada dato cobre sentido y se traduzca en valor para tu organización, generando
+                    confianza y resultados sostenibles.
+                </p>
+
+            </div>
+        </div>
+
+        <section class="experiencia py-20">
+            <div id="experencia" class="max-w-5xl mx-auto px-6">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+                    Experiencia
+                </h2>
+
+                <div class="w-24 h-1 bg-sky-500 mx-auto mb-12"></div>
+
+                <div class="space-y-8">
+
+                    <!-- Experiencia -->
+                    <div class="bg-gray-50 rounded-2xl p-6 shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Analista de Datos
+                        </h3>
+                        <p class="text-sm text-gray-500 mb-2">
+                            Consultoría en Analítica de Datos · 2022 – Actualidad
+                        </p>
+                        <p class="text-gray-600">
+                            Desarrollo de análisis orientados a negocio, apoyo en la toma de decisiones
+                            estratégicas y generación de insights a partir de datos operativos y comerciales.
+                        </p>
+                    </div>
+
+                    <!-- Experiencia -->
+                    <div class="bg-gray-50 rounded-2xl p-6 shadow">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Analista Junior
+                        </h3>
+                        <p class="text-sm text-gray-500 mb-2">
+                            Empresa de Servicios · 2020 – 2022
+                        </p>
+                        <p class="text-gray-600">
+                            Apoyo en análisis de información, elaboración de reportes y seguimiento
+                            de indicadores clave para diferentes áreas de la organización.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios py-20 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+                    Servicios
+                </h2>
+
+                <div class="w-24 h-1 bg-sky-500 mx-auto mb-12"></div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-sky-50 to-white border border-sky-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-sky-700 group-hover:text-sky-600 transition">
+                            Análisis de Datos
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Interpretación de datos para identificar patrones, oportunidades y apoyar la toma de
+                            decisiones estratégicas basadas en información real.
+                        </p>
+                    </div>
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-indigo-50 to-white border border-indigo-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-indigo-700 group-hover:text-indigo-600 transition">
+                            Visualización de Información
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Creación de reportes claros y visuales que facilitan la comprensión de resultados para
+                            equipos técnicos y directivos.
+                        </p>
+                    </div>
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-emerald-700 group-hover:text-emerald-600 transition">
+                            Optimización de Procesos
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Análisis de procesos operativos para detectar ineficiencias y proponer mejoras basadas
+                            en datos históricos y escenarios futuros.
+                        </p>
+                    </div>
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-cyan-50 to-white border border-cyan-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-cyan-700 group-hover:text-cyan-600 transition">
+                            Modelos Predictivos
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Desarrollo de modelos que anticipan tendencias y comportamientos futuros para apoyar
+                            la planificación estratégica.
+                        </p>
+                    </div>
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-purple-50 to-white border border-purple-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-purple-700 group-hover:text-purple-600 transition">
+                            Análisis Financiero
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Evaluación de indicadores financieros y escenarios para mejorar rentabilidad y control
+                            de costos.
+                        </p>
+                    </div>
+
+                    <div
+                        class="group rounded-2xl p-8 bg-gradient-to-br from-amber-50 to-white border border-amber-100 shadow-md hover:shadow-xl transition">
+                        <h3 class="text-xl font-semibold mb-4 text-amber-700 group-hover:text-amber-600 transition">
+                            Consultoría en Datos
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Asesoría estratégica para implementar cultura data-driven y mejorar la toma de
+                            decisiones en la organización.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Proyectos -->
+
+        <section id="proyectos" class="py-10">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="bg-black/50 backdrop-blur-md rounded-3xl p-10 proyectos">
+
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
+                        Proyectos
+                    </h2>
+
+                    <div class="w-24 h-1 bg-sky-500 mx-auto mb-12"></div>
+
+                    <div class="swiper empresasSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bg-gray-50 rounded-2xl shadow-lg p-16">
+
+                                    <!-- Empresa -->
+                                    <div class="flex items-center gap-4 mb-8">
+                                        <img src="../imgs/unnamed.jpg" class="w-14 h-14 object-contain" />
+                                        <div>
+                                            <h3 class="text-2xl font-bold text-gray-800">Valor</h3>
+                                            Consultora especializada en analítica avanzada y toma de decisiones basada
+                                            en datos
+                                        </div>
+                                    </div>
+
+                                    <!-- Proyectos -->
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                                        <!-- Proyecto -->
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/analisis-datos.jpg'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Azúcar Industrial
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Análisis integral de ventas y costos para identificar ineficiencias
+                                                    operativas y definir
+                                                    estrategias de reducción de gastos con impacto directo en la
+                                                    rentabilidad.
+                                                </p>
+
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/types-of-data-analysis-descriptive.png'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Producción Agroindustrial
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Construcción de modelos de análisis para evaluar el comportamiento
+                                                    de la demanda y
+                                                    optimizar la planificación de producción en diferentes escenarios de
+                                                    mercado.
+                                                </p>
+
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Proyecto -->
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/diagnostic-data-analysis.png'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Logística Regional
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Desarrollo de análisis predictivos para anticipar picos de demanda y
+                                                    mejorar la gestión
+                                                    de inventarios y distribución a nivel regional.
+                                                </p>
+
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-gray-50 rounded-2xl shadow-lg p-16">
+
+                                    <!-- Empresa -->
+                                    <div class="flex items-center gap-4 mb-8">
+                                        <img src="../imgs/3823d4_7c9a662e37f34e788c1b29aa099eea69~mv2.png"
+                                            class="w-14 h-14 object-contain" />
+                                        <div>
+                                            <h3 class="text-2xl font-bold text-gray-800">London Data Consulting</h3>
+                                            <p class="text-sm text-gray-500">
+                                                Firma de analítica de datos orientada a optimización de procesos y
+                                                estrategia empresarial
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Proyectos -->
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                                        <!-- Proyecto -->
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/como-utilizar-power-bi-para-analisis-de-datos-en-tiempo-real.png'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Retail Alimentario
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Análisis del comportamiento de compra de clientes para detectar
+                                                    patrones de consumo
+                                                    y apoyar decisiones estratégicas de precios y promociones.
+                                                </p>
+
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/ejemplo-empresa-2-2.png'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Distribución Mayorista
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Evaluación de indicadores clave de desempeño para identificar
+                                                    cuellos de botella
+                                                    operativos y proponer mejoras basadas en datos históricos.
+                                                </p>
+
+
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Proyecto -->
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/ejemplo-empresa-2-3.jpg'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Logística Regional
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Análisis predictivo de demanda para optimización de inventarios y
+                                                    distribución.
+                                                </p>
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="relative rounded-2xl overflow-hidden shadow-lg group h-64 transform transition duration-300 hover:scale-[1.02]"
+                                            style="background-image: url('../imgs/ejemplo-empresa-2-3.jpg'); background-size: cover; background-position: center;">
+
+                                            <div
+                                                class="absolute inset-0 bg-black/60 group-hover:bg-black/70 transition">
+                                            </div>
+
+                                            <div class="relative z-10 h-full flex flex-col justify-end p-6 text-white">
+                                                <h4 class="text-lg font-semibold">
+                                                    Cliente: Logística Regional
+                                                </h4>
+
+                                                <p class="text-sm text-gray-200 mt-2 line-clamp-2">
+                                                    Análisis predictivo de demanda para optimización de inventarios y
+                                                    distribución.
+                                                </p>
+
+                                                <div class="mt-4">
+                                                    <button
+                                                        class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold bg-sky-500 hover:bg-sky-600 rounded-full transition">
+                                                        Ver más
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
+                                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="2" d="M9 5l7 7-7 7" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination mt-6"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
